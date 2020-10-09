@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Piedra");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto";
+    color:black;
+    background-color: white;
+   
+}
+
+h1{
+    color: darkgreen;
+    font-family: 'Piedra';
+}
+
+h2{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+img{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.centrado{
+    display: flex;  /* centrar contenido - class="centrado" en html*/
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header{
+    background: yellow;
+    height: 120px;
+    padding: 10px;
+    
+
+    
+    
+
+}
+
+nav{
+    display: flex;
+    Justify-content:space-evenly;
+    background-color: black;
+    height: 20px;
+    color: white;
+    
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+section{
+display: flex;
+    
+} 
+
+aside{
+    flex-basis: 20%;
+    background-color: white;
+    height: 500px;
+    border: black 3px solid;
+    
+    
+}
+
+main{
+    flex-basis:  60%;
+    background-color: white;
+    height: auto;
+    margin: 12px;
+}
+
+
+
+li{
+   
+    list-style:none;
+    bottom: 0px;
+
+    
+}
+
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+footer{
+    display: flex;
+    Justify-content:space-evenly;
+    height: 100px;
+    background: yellow;
+    width: 100%;
+    color:darkgreen;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+
+
+
+}
+    
+ol{
+    align-items: center;
+    text-align: center;
+}
+
+div{
+    color: red;
+}
+
+i{
+    color:darkgreen;
+}
+
+
+a{
+    color: darkgreen;
+}
